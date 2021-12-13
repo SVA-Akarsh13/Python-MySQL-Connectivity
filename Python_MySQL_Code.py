@@ -8,7 +8,7 @@ from time import mktime
 from datetime import datetime
 
 
-conn = mysql.connector.connect(user='root', password='Admin', host='127.0.0.1', port=3306, database='testdb', auth_plugin='mysql_native_password')
+conn = mysql.connector.connect(user='root', password='', host='127.0.0.1', port='Enter_port_no', database='Enter database name', auth_plugin='mysql_native_password')
 cursor = conn.cursor()
 
 dates=[]
